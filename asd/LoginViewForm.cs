@@ -59,8 +59,8 @@ namespace asd
 
         private void label2_Click(object sender, EventArgs e)
         {
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
+            ChoiceForm choiceForm = new ChoiceForm();
+            choiceForm.Show();
             this.Hide();
         }
     }

@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(331, 489);
+            ClientSize = new Size(319, 489);
             Name = "LoginsWievList";
             Text = "LoginsWievList";
             ResumeLayout(false);

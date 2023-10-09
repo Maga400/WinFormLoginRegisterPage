@@ -82,8 +82,8 @@ namespace asd
                         checkUsername++;
                         MessageBox.Show("Siz artiq login oldunuz", "Information!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Hide();
-                        LoginViewForm loginView = new LoginViewForm();
-                        loginView.Show();
+                        ChoiceForm choiceForm = new ChoiceForm();
+                        choiceForm.Show();
                     }
 
                     else if (usernameTextBox.Text == logins[i].Username)
